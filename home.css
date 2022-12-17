@@ -1,0 +1,224 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-mac-book-pro162 {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-group1 {
+  top: -168px;
+  left: -257px;
+  width: 2550px;
+  height: 1626.000244140625px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-i-m-a-g-e7m4a06242copy1 {
+  top: 0.0001002302160486579px;
+  left: 257px;
+  width: 1626px;
+  height: 2293px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-rectangle1 {
+  top: 107px;
+  left: 0px;
+  width: 2241px;
+  height: 1178px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-container1 {
+  top: 341px;
+  left: 246px;
+  width: 1094px;
+  height: 448.34375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-container2 {
+  top: 0px;
+  left: 0px;
+  width: 1083px;
+  height: 231.1875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-text {
+  top: 0px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roc Grotesk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text2 {
+  top: 59px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 1083px;
+  height: auto;
+  position: absolute;
+  font-size: 70px;
+  align-self: auto;
+  font-style: Thin;
+  text-align: left;
+  font-family: IvyPresto Display;
+  font-weight: 100;
+  line-height: 123.80000352859497%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  letter-spacing: 3.5px;
+  text-decoration: none;
+}
+.home-container3 {
+  left: 0px;
+  width: 1094px;
+  bottom: 0px;
+  height: 114.34375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-text3 {
+  top: 0px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roc Grotesk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text4 {
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: auto;
+  bottom: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Thin;
+  text-align: left;
+  font-family: IvyPresto Display;
+  font-weight: 100;
+  line-height: 123.80000352859497%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  letter-spacing: 4px;
+}
+@media(max-width: 1200px) {
+  .home-container1 {
+    left: 0px;
+    right: 0px;
+    width: 1030px;
+    margin: auto;
+  }
+  .home-container2 {
+    width: 1030px;
+    height: 281px;
+  }
+  .home-text2 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 70px;
+    max-width: 1000px;
+    font-weight: 100;
+    line-height: 123.8%;
+    text-decoration: none;
+  }
+  .home-container3 {
+    width: 755px;
+  }
+}
+@media(max-width: 991px) {
+  .home-container1 {
+    width: 800px;
+    height: 516px;
+  }
+  .home-container2 {
+    width: 800px;
+  }
+}
+@media(max-width: 479px) {
+  .home-container1 {
+    width: 400px;
+    height: 358px;
+  }
+  .home-container2 {
+    gap: 0;
+    width: 100%;
+    height: 254px;
+    flex-direction: column;
+  }
+  .home-text {
+    font-size: 16px;
+  }
+  .home-text2 {
+    top: var(--dl-space-space-twounits);
+    width: 380px;
+    font-size: 45px;
+    max-width: auto;
+  }
+  .home-container3 {
+    width: 400px;
+    height: 62px;
+  }
+  .home-text3 {
+    font-size: 16px;
+  }
+  .home-text4 {
+    top: var(--dl-space-space-twounits);
+    font-size: 25px;
+  }
+}
